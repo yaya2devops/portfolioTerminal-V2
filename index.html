@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="icone.png" />
+  <title>Yahya</title>
+</head>
+
+<body>
+  <div class=" container">
+    <nav>
+      <ul>
+        <li id="about">/about</li>
+        <li id="contact">/contact</li>
+        <li id="blog">/blog </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>user@Yahya-Abulhaj:~$<span class="cursor">|</span></h1>
+      <h3>Find me online:</h3>
+      <ul>
+        <li>
+          <a href="https://www.itzyahya.tech" target="_blank">Portfolio</a>
+
+        </li>
+        <li>
+          <a href="https://twitter.com/AbulhajYahya" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/yahya-abulhaj/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/YAHYA4" target="_blank">Github</a>
+        </li>
+      </ul>
+      <h1>RSS Reader (JavaScript)</h1>
+      <output>Loading...</output>
+      <template>
+        <h2></h2>
+        <h3></h3>
+        <a href='#'></a>
+        <p></p>
+      </template>
+    </main>
+  </div>
+
+  <div class="hidden">
+    <div id="about-content">
+      <h2>about-me:~$<span class="cursor">|</span></h2>
+      <p>About me</p>
+      <p>
+        More about me
+      </p>
+    </div>
+
+    <div id="contact-content">
+      <h2>contact-me:~$<span class="cursor">|</span></h2>
+      <p>You can contact me at the email below</p>
+      <ul>
+        <li>Email: YahyaAbulhaj@outlook.com</li>
+      </ul>
+    </div>
+
+    <div id="blog-content">
+      <h2>blog:~$<span class="cursor">|</span></h2>
+      <p>Check-out my Blog @ <a href="https://blog.yahya-abulhaj.dev">Yahya's Blog</a></p>
+      <div id="feed"></div>
+    </div>
+  </div>
+
+  <script src="js/winbox.bundle.js"></script>
+  <script src="js/main.js"></script>
+  <script src='js/rss.js' defer></script>
+</body>
+
+</html>
